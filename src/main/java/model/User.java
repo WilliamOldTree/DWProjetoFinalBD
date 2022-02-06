@@ -13,6 +13,9 @@ public class User {
 		this.email = email;
 		this.pais = pais;
 	}
+	public User() {
+		
+	}
 	public Integer getId() {
 		return id;
 	}
