@@ -1,0 +1,73 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+	;
+
+html, body, header {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto";
+}
+
+#nav-itens {
+	background-color: darkgreen;
+	height: 80px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 0px 30px;
+	font-weight: 50;
+}
+
+#nav-itens h3 {
+	font-weight: 800;
+	margin: 0px;
+}
+
+#nav-itens a {
+	margin-right: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#nav-itens ul {
+	margin: 0px;
+}
+
+#btn-cadastrar {
+	margin-top: 30px;
+}
+
+#cont-input {
+	width: 500px;
+}
+
+#cont-input h1 {
+	font-weight: 800;
+}
+
+#cabecalho-pagina h1 {
+	justify-content: center;
+	display: flex;
+	font-weight: 1000;
+	margin-top: 30px;
+}
+
+#table {
+	margin-top: 40px;
+}
+
+#link-duplo a {
+	margin-right: 20px;
+}
+
+.label-input {
+	display: flex;
+	border-color: dimgray;
+	background-color: whitesmoke;
+	width: 500px;
+	height: 600px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
